@@ -1,0 +1,63 @@
+목표 : 화면의 일부분을 OCR을 통해 실시간으로 번역해주는 프로그램 제작
+
+개발 항목
+
+0) GUI 구성
+
+    - 1개의 창 활용
+        간편한 구성이긴 하지만 가독성이나 활용도 측면/구현이 어려움
+        
+    - 2개의 창 활용(채택)
+        복잡한 구성이지만 구현이 쉽고 활용또한 쉬움
+        2개의 창이 최소화 이전까지는 항상 떠있게
+        
+1) Img 가져오기
+
+    - 좌표 추출 기능
+        
+    - 이미지 추출 기능
+    
+    
+    *추가 작업 내용
+    - 이미지를 추출할 때는 투명도, 범위등을 UI 적으로 잘 조절할 것
+    - 멀티 모니터일 경우 오류?
+    - 추출해내는 시간 간격
+        추출 - <추출 데이터 동일,none일 경우  번역 미수행> -> 번역 반복
+    
+2) Img OCR 작업
+    - 언어설정
+    - 정확도 개선 - 이미지 사전 개선 여부 결정
+    
+    *정확도 개선 사전 작업
+    https://junyoung-jamong.github.io/computer/vision,/ocr/2019/01/30/Python%EC%97%90%EC%84%9C-Tesseract%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-OCR-%EC%88%98%ED%96%89%ED%95%98%EA%B8%B0.html
+    
+    https://github.com/tesseract-ocr/tesseract/wiki/ImproveQuality
+    
+    *OCR 소요시간 
+    https://m.blog.naver.com/PostView.nhn?blogId=ez_&logNo=140110571493&proxyReferer=https%3A%2F%2Fwww.google.com%2F
+
+3) TXT 번역 작업
+    파파고 API -> 구글 번역API  : 글자수 제한으로 인해서...
+    번역의 퀄리티가 확실히 저하...
+    
+
+4) TXT 출력
+    overflow처리
+
+[To Do]
+
+1) 인식률 개선 - 딱히 개선할게 없다.../ 화면의 크기에 따라 인식율이 차이가 많이 나기 때문에
+-> 완료
+2) 이미지 추출 알고리즘 완성
+->완료 
+3) GUI 구성
+    label overflow처리
+    2개의 frame
+    option menu 구성 - 언어 설정(추출 언어, 번역 원어, 번역 대상어), 원본 출력, font 크기, font 종류
+    
+    option frame 분리
+    
+    wrap length를 창 크기에 맞춰서
+    font크기 옵션 추가
+    
+4) 배포판 제작
