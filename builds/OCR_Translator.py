@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[7]:
+# In[1]:
 
 
-#ver 1.0
+#ver 1.1
 import tkinter
 import tkinter.ttk
 import win32gui
@@ -25,7 +25,6 @@ from queue import Queue
 import os
 
 import multiprocessing
-
 
 #Globals
 img = None
@@ -228,15 +227,17 @@ def main():
     cb.geometry("320x200+100+100")
     cb.resizable(True, True)
     cb.wm_attributes('-alpha', 0.3)
+#fix capture board at top
+    cb.wm_attributes("-topmost", 1)
 
     printBoard(captureBoard)
     threadStart()
     cb.mainloop()
     
 if __name__ == '__main__':
-    
-    multiprocessing.freeze_support()
 
+    multiprocessing.freeze_support()
+    
     main()
 
 

@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['OCR_Translator.py'],
-             pathex=['C:\\Users\\박영찬\\Desktop\\pythons\\builds'],
+             pathex=['C:\\Users\\박영찬\\Desktop\\pythons\\OCR_trans\\builds'],
              binaries=[],
              datas=[],
              hiddenimports=[],
