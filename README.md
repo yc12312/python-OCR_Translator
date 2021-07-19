@@ -28,16 +28,13 @@ This Program catches text from screen and translate them(for windows only)
 
 
 <번역할 부분 지정>
-
-![1.png](./test images/1.png)
+![1](https://user-images.githubusercontent.com/35189020/126132224-e7935c98-224c-4bc6-874c-25d3220184f5.png)
 
 <번역 수행>
-
-![2.png](./test images/2.png)
+![2](https://user-images.githubusercontent.com/35189020/126132220-eb8b4f47-4359-4abb-90d7-7b815a5cddac.png)
 
 <전체 구성>
-
-![3.png](./test images/3.png)
+![3](https://user-images.githubusercontent.com/35189020/126132226-9f6d9665-1f25-487d-8585-cab9eefbfd96.png)
 
 
 <제작중 참고한 링크>
