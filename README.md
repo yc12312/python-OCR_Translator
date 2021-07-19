@@ -1,7 +1,7 @@
 # python-OCR_Translator
 This Program catches text from screen and translate them(for windows only)
 
-#사용 방법
+# 사용 방법
 
 
 
@@ -23,32 +23,28 @@ This Program catches text from screen and translate them(for windows only)
 
 
 
-#사용 예시
+# 사용 예시
 
 
 
 <번역할 부분 지정>
 
-![1.png](./test image/1.png)
+![1.png](./test images/1.png)
 
 <번역 수행>
 
-
-
+![2.png](./test images/2.png)
 
 <전체 구성>
 
+![3.png](./test images/3.png)
 
 
-
-
-
-<참고 링크>
+<제작중 참고한 링크>
 
 1) Img To Text
 
 https://stackoverflow.com/questions/19964345/how-to-do-a-screenshot-of-a-tkinter-application
-
 
 
 2) Thread
@@ -56,11 +52,9 @@ https://stackoverflow.com/questions/19964345/how-to-do-a-screenshot-of-a-tkinter
 https://niceman.tistory.com/140?category=940952
 
 
-
 3) Tkinter Configure
 
 https://m.blog.naver.com/PostView.nhn?blogId=audiendo&logNo=220794534654&proxyReferer=https%3A%2F%2Fwww.google.com%2F
-
 
 
 4) exe 파일 만들기
@@ -68,11 +62,6 @@ https://m.blog.naver.com/PostView.nhn?blogId=audiendo&logNo=220794534654&proxyRe
 https://winterj.me/pyinstaller/
 
 
-
 버그) https://stackoverflow.com/questions/32672596/pyinstaller-loads-script-multiple-times
-
-
-
-
 
 -> PC에 OCR 프로그램이 별도로 설치되어야한다. - 독립적이지 않음
