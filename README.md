@@ -9,9 +9,7 @@ This Program catches text from screen and translate them(for windows only)
 
 번역해주는 부분에서 언어를 지정해줄수 있습니다.(한 , 영, 일본어, 중국어(간체) )
 
-
 3가지를 지정할 수 있는데 그 종류는 읽어올 이미지 언어, 원문, 번역할 언어 입니다.
-(사실 읽어올 이미지 언어하고 원문은 같은데 코드가 달라서 그냥 따로 지정했습니다.)
 
 
 
